@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F0B2A11FD0B8F700093E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */; };
+		77F0B2A31FD0B8F700093E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2A21FD0B8F700093E5E /* ViewController.swift */; };
+		77F0B2A61FD0B8F700093E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0B2A41FD0B8F700093E5E /* Main.storyboard */; };
+		77F0B2A81FD0B8F700093E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F0B2A71FD0B8F700093E5E /* Assets.xcassets */; };
+		77F0B2AB1FD0B8F700093E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */; };
+		77F0B2B61FD0B8F700093E5E /* Food_picovinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2B51FD0B8F700093E5E /* Food_picovinaTests.swift */; };
+		77F0B2C11FD0B8F700093E5E /* Food_picovinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2C01FD0B8F700093E5E /* Food_picovinaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77F0B2B21FD0B8F700093E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F0B2951FD0B8F700093E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F0B29C1FD0B8F700093E5E;
+			remoteInfo = "Food picovina";
+		};
+		77F0B2BD1FD0B8F700093E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F0B2951FD0B8F700093E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F0B29C1FD0B8F700093E5E;
+			remoteInfo = "Food picovina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77F0B29D1FD0B8F700093E5E /* Food picovina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food picovina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F0B2A21FD0B8F700093E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F0B2A51FD0B8F700093E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F0B2A71FD0B8F700093E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F0B2AA1FD0B8F700093E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F0B2AC1FD0B8F700093E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F0B2B11FD0B8F700093E5E /* Food picovinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food picovinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F0B2B51FD0B8F700093E5E /* Food_picovinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_picovinaTests.swift; sourceTree = "<group>"; };
+		77F0B2B71FD0B8F700093E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F0B2BC1FD0B8F700093E5E /* Food picovinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food picovinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F0B2C01FD0B8F700093E5E /* Food_picovinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_picovinaUITests.swift; sourceTree = "<group>"; };
+		77F0B2C21FD0B8F700093E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F0B29A1FD0B8F700093E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2AE1FD0B8F700093E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2B91FD0B8F700093E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F0B2941FD0B8F700093E5E = {
+			isa = PBXGroup;
+			children = (
+				77F0B29F1FD0B8F700093E5E /* Food picovina */,
+				77F0B2B41FD0B8F700093E5E /* Food picovinaTests */,
+				77F0B2BF1FD0B8F700093E5E /* Food picovinaUITests */,
+				77F0B29E1FD0B8F700093E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F0B29E1FD0B8F700093E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F0B29D1FD0B8F700093E5E /* Food picovina.app */,
+				77F0B2B11FD0B8F700093E5E /* Food picovinaTests.xctest */,
+				77F0B2BC1FD0B8F700093E5E /* Food picovinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F0B29F1FD0B8F700093E5E /* Food picovina */ = {
+			isa = PBXGroup;
+			children = (
+				77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */,
+				77F0B2A21FD0B8F700093E5E /* ViewController.swift */,
+				77F0B2A41FD0B8F700093E5E /* Main.storyboard */,
+				77F0B2A71FD0B8F700093E5E /* Assets.xcassets */,
+				77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */,
+				77F0B2AC1FD0B8F700093E5E /* Info.plist */,
+			);
+			path = "Food picovina";
+			sourceTree = "<group>";
+		};
+		77F0B2B41FD0B8F700093E5E /* Food picovinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				77F0B2B51FD0B8F700093E5E /* Food_picovinaTests.swift */,
+				77F0B2B71FD0B8F700093E5E /* Info.plist */,
+			);
+			path = "Food picovinaTests";
+			sourceTree = "<group>";
+		};
+		77F0B2BF1FD0B8F700093E5E /* Food picovinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77F0B2C01FD0B8F700093E5E /* Food_picovinaUITests.swift */,
+				77F0B2C21FD0B8F700093E5E /* Info.plist */,
+			);
+			path = "Food picovinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F0B29C1FD0B8F700093E5E /* Food picovina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0B2C51FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovina" */;
+			buildPhases = (
+				77F0B2991FD0B8F700093E5E /* Sources */,
+				77F0B29A1FD0B8F700093E5E /* Frameworks */,
+				77F0B29B1FD0B8F700093E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food picovina";
+			productName = "Food picovina";
+			productReference = 77F0B29D1FD0B8F700093E5E /* Food picovina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77F0B2B01FD0B8F700093E5E /* Food picovinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0B2C81FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovinaTests" */;
+			buildPhases = (
+				77F0B2AD1FD0B8F700093E5E /* Sources */,
+				77F0B2AE1FD0B8F700093E5E /* Frameworks */,
+				77F0B2AF1FD0B8F700093E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F0B2B31FD0B8F700093E5E /* PBXTargetDependency */,
+			);
+			name = "Food picovinaTests";
+			productName = "Food picovinaTests";
+			productReference = 77F0B2B11FD0B8F700093E5E /* Food picovinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77F0B2BB1FD0B8F700093E5E /* Food picovinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0B2CB1FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovinaUITests" */;
+			buildPhases = (
+				77F0B2B81FD0B8F700093E5E /* Sources */,
+				77F0B2B91FD0B8F700093E5E /* Frameworks */,
+				77F0B2BA1FD0B8F700093E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F0B2BE1FD0B8F700093E5E /* PBXTargetDependency */,
+			);
+			name = "Food picovinaUITests";
+			productName = "Food picovinaUITests";
+			productReference = 77F0B2BC1FD0B8F700093E5E /* Food picovinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F0B2951FD0B8F700093E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Martin Gábor";
+				TargetAttributes = {
+					77F0B29C1FD0B8F700093E5E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					77F0B2B01FD0B8F700093E5E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77F0B29C1FD0B8F700093E5E;
+					};
+					77F0B2BB1FD0B8F700093E5E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77F0B29C1FD0B8F700093E5E;
+					};
+				};
+			};
+			buildConfigurationList = 77F0B2981FD0B8F700093E5E /* Build configuration list for PBXProject "Food picovina" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F0B2941FD0B8F700093E5E;
+			productRefGroup = 77F0B29E1FD0B8F700093E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F0B29C1FD0B8F700093E5E /* Food picovina */,
+				77F0B2B01FD0B8F700093E5E /* Food picovinaTests */,
+				77F0B2BB1FD0B8F700093E5E /* Food picovinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F0B29B1FD0B8F700093E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0B2AB1FD0B8F700093E5E /* LaunchScreen.storyboard in Resources */,
+				77F0B2A81FD0B8F700093E5E /* Assets.xcassets in Resources */,
+				77F0B2A61FD0B8F700093E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2AF1FD0B8F700093E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2BA1FD0B8F700093E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F0B2991FD0B8F700093E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0B2A31FD0B8F700093E5E /* ViewController.swift in Sources */,
+				77F0B2A11FD0B8F700093E5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2AD1FD0B8F700093E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0B2B61FD0B8F700093E5E /* Food_picovinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0B2B81FD0B8F700093E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0B2C11FD0B8F700093E5E /* Food_picovinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77F0B2B31FD0B8F700093E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F0B29C1FD0B8F700093E5E /* Food picovina */;
+			targetProxy = 77F0B2B21FD0B8F700093E5E /* PBXContainerItemProxy */;
+		};
+		77F0B2BE1FD0B8F700093E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F0B29C1FD0B8F700093E5E /* Food picovina */;
+			targetProxy = 77F0B2BD1FD0B8F700093E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77F0B2A41FD0B8F700093E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F0B2A51FD0B8F700093E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F0B2AA1FD0B8F700093E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F0B2C31FD0B8F700093E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F0B2C41FD0B8F700093E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F0B2C61FD0B8F700093E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F0B2C71FD0B8F700093E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77F0B2C91FD0B8F700093E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovinaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food picovina.app/Food picovina";
+			};
+			name = Debug;
+		};
+		77F0B2CA1FD0B8F700093E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovinaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food picovina.app/Food picovina";
+			};
+			name = Release;
+		};
+		77F0B2CC1FD0B8F700093E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food picovina";
+			};
+			name = Debug;
+		};
+		77F0B2CD1FD0B8F700093E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8P882SGSG;
+				INFOPLIST_FILE = "Food picovinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mocingejbr.Food-picovinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food picovina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F0B2981FD0B8F700093E5E /* Build configuration list for PBXProject "Food picovina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0B2C31FD0B8F700093E5E /* Debug */,
+				77F0B2C41FD0B8F700093E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0B2C51FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0B2C61FD0B8F700093E5E /* Debug */,
+				77F0B2C71FD0B8F700093E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0B2C81FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0B2C91FD0B8F700093E5E /* Debug */,
+				77F0B2CA1FD0B8F700093E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0B2CB1FD0B8F700093E5E /* Build configuration list for PBXNativeTarget "Food picovinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0B2CC1FD0B8F700093E5E /* Debug */,
+				77F0B2CD1FD0B8F700093E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F0B2951FD0B8F700093E5E /* Project object */;
+}
