@@ -30,6 +30,13 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         // Do any additional setup after loading the view, typically from a nib.
         foodNameTextField.delegate = self
         foodImageView.isUserInteractionEnabled = true
+        
+        if let meal = meal {
+            navigationItem.title = meal.name
+            foodNameTextField.text = meal.name
+            foodImageView.image = meal.photo
+            ratingControl.rating = meal.rating
+        }
         //Enable save button only if text field has a Valid meal name
         updateSaveButtonState()
     }
@@ -69,6 +76,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         dismiss(animated: true, completion: nil)
     }
     //MARK: Navigation
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     
     //This method lets you configure a view controller before it's presented
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
