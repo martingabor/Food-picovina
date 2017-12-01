@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773B257C1FD1A8410067AFE8 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B257B1FD1A8410067AFE8 /* Meal.swift */; };
 		77F0B2A11FD0B8F700093E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */; };
 		77F0B2A31FD0B8F700093E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2A21FD0B8F700093E5E /* ViewController.swift */; };
 		77F0B2A61FD0B8F700093E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0B2A41FD0B8F700093E5E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		773B257B1FD1A8410067AFE8 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		77F0B29D1FD0B8F700093E5E /* Food picovina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food picovina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77F0B2A21FD0B8F700093E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */,
 				77F0B2A21FD0B8F700093E5E /* ViewController.swift */,
 				77F0B2CE1FD0CEA300093E5E /* RatingControl.swift */,
+				773B257B1FD1A8410067AFE8 /* Meal.swift */,
 				77F0B2A41FD0B8F700093E5E /* Main.storyboard */,
 				77F0B2A71FD0B8F700093E5E /* Assets.xcassets */,
 				77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773B257C1FD1A8410067AFE8 /* Meal.swift in Sources */,
 				77F0B2A31FD0B8F700093E5E /* ViewController.swift in Sources */,
 				77F0B2CF1FD0CEA300093E5E /* RatingControl.swift in Sources */,
 				77F0B2A11FD0B8F700093E5E /* AppDelegate.swift in Sources */,
