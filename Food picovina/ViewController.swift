@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         foodNameTextField.delegate = self
         foodImageView.isUserInteractionEnabled = true
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -55,16 +55,13 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     //MARK: Actions
-    @IBAction func setDefaultFoodLabel(_ sender: UIButton) {
-        foodNameLabel.text = foodNameTextField.text
-    }
     
     @IBAction func pickPhotoFromLibrary(_ sender: UITapGestureRecognizer) {
         let imagePickerController = UIImagePickerController()
         
         //Source where to get photos - photo library of the device
         imagePickerController.sourceType = .photoLibrary
-        //notify 
+        
         imagePickerController.delegate = self
         
         present(imagePickerController, animated: true, completion: nil)

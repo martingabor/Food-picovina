@@ -14,6 +14,7 @@
 		77F0B2AB1FD0B8F700093E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */; };
 		77F0B2B61FD0B8F700093E5E /* Food_picovinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2B51FD0B8F700093E5E /* Food_picovinaTests.swift */; };
 		77F0B2C11FD0B8F700093E5E /* Food_picovinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2C01FD0B8F700093E5E /* Food_picovinaUITests.swift */; };
+		77F0B2CF1FD0CEA300093E5E /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B2CE1FD0CEA300093E5E /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		77F0B2BC1FD0B8F700093E5E /* Food picovinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food picovinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F0B2C01FD0B8F700093E5E /* Food_picovinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_picovinaUITests.swift; sourceTree = "<group>"; };
 		77F0B2C21FD0B8F700093E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F0B2CE1FD0CEA300093E5E /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				77F0B2A01FD0B8F700093E5E /* AppDelegate.swift */,
 				77F0B2A21FD0B8F700093E5E /* ViewController.swift */,
+				77F0B2CE1FD0CEA300093E5E /* RatingControl.swift */,
 				77F0B2A41FD0B8F700093E5E /* Main.storyboard */,
 				77F0B2A71FD0B8F700093E5E /* Assets.xcassets */,
 				77F0B2A91FD0B8F700093E5E /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77F0B2A31FD0B8F700093E5E /* ViewController.swift in Sources */,
+				77F0B2CF1FD0CEA300093E5E /* RatingControl.swift in Sources */,
 				77F0B2A11FD0B8F700093E5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
