@@ -21,16 +21,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BUf-d8-bUU">
-                                <rect key="frame" x="20" y="30" width="374" height="633"/>
+                                <rect key="frame" x="20" y="30" width="374" height="445.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of the food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNn-AQ-FUt">
-                                        <rect key="frame" x="120.33333333333333" y="0.0" width="133.33333333333337" height="130.33333333333334"/>
+                                        <rect key="frame" x="120.33333333333333" y="0.0" width="133.33333333333337" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Set name of the food" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OM0-ye-O8O">
-                                        <rect key="frame" x="0.0" y="150.33333333333334" width="374" height="25"/>
+                                        <rect key="frame" x="108.66666666666667" y="40.333333333333329" width="156.66666666666663" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="grp-Pc-Zy2"/>
                                         </constraints>
@@ -39,7 +39,7 @@
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t6G-bl-Muu">
-                                        <rect key="frame" x="0.0" y="195.33333333333334" width="374" height="373.66666666666663"/>
+                                        <rect key="frame" x="7" y="85.333333333333314" width="360" height="360"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="t6G-bl-Muu" secondAttribute="height" multiplier="1:1" id="OXU-Mt-r1n"/>
@@ -48,21 +48,24 @@
                                             <outletCollection property="gestureRecognizers" destination="pld-9g-lCO" appends="YES" id="CAI-lU-h4E"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K9S-1V-Jeh" customClass="RatingControl" customModule="Food_picovina" customModuleProvider="target">
-                                        <rect key="frame" x="61" y="589" width="252" height="44"/>
-                                    </stackView>
                                 </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K9S-1V-Jeh" customClass="RatingControl" customModule="Food_picovina" customModuleProvider="target">
+                                <rect key="frame" x="81" y="592" width="252" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailingMargin" secondItem="OM0-ye-O8O" secondAttribute="trailing" id="Hb9-3j-UVY"/>
+                                    <constraint firstAttribute="width" secondItem="K9S-1V-Jeh" secondAttribute="height" multiplier="63:11" id="iJb-Gs-I69"/>
+                                    <constraint firstAttribute="width" secondItem="K9S-1V-Jeh" secondAttribute="height" multiplier="63:11" id="k6g-sK-NcV"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K9S-1V-Jeh" secondAttribute="bottom" constant="100" id="9cE-Iy-SrN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BUf-d8-bUU" secondAttribute="trailing" id="LKW-Tg-Yhr"/>
                             <constraint firstItem="BUf-d8-bUU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UEF-CO-PtJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BUf-d8-bUU" secondAttribute="bottom" constant="73" id="dOz-SI-08g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K9S-1V-Jeh" secondAttribute="trailing" constant="81" id="XkX-qN-lBs"/>
                             <constraint firstItem="BUf-d8-bUU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="kVI-9a-xhz"/>
+                            <constraint firstItem="K9S-1V-Jeh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="mlQ-LY-xq9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -70,6 +73,7 @@
                         <outlet property="foodImageView" destination="t6G-bl-Muu" id="hP8-iq-7Xa"/>
                         <outlet property="foodNameLabel" destination="bNn-AQ-FUt" id="Q0i-JV-HzD"/>
                         <outlet property="foodNameTextField" destination="OM0-ye-O8O" id="Eqw-Ep-mbr"/>
+                        <outlet property="ratingControl" destination="K9S-1V-Jeh" id="TgD-Tr-0je"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,6 +87,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="540" height="540"/>
+        <image name="defaultPhoto" width="360" height="360"/>
     </resources>
 </document>
